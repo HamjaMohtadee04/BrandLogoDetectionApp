@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "86907482574",
+    "project_id": "brandlogodetectionapp",
+    "storage_bucket": "brandlogodetectionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86907482574:android:d5e054679c608d40d43b9f",
+        "android_client_info": {
+          "package_name": "com.example.brandlogodetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86907482574-7pj4scguchk2p4e5ce6as84nvtbgshht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCFfEcP5Ouhw_V_Fhx-2_achlnDvxU78c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86907482574-7pj4scguchk2p4e5ce6as84nvtbgshht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
