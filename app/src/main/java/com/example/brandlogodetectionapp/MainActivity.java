@@ -17,14 +17,15 @@ public class MainActivity extends AppCompatActivity {
         //set the title
         getSupportActionBar().setTitle("BrandlogoDetectionApp");
 
-     /*   //open login activity
+       //open login activity
         Button buttonLogin= findViewById(R.id.button_login);
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+                Intent intent=new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(intent);
             }
-        });*/
+        });
 
         //open register activity
            Button buttonRegister= findViewById(R.id.button_register);
