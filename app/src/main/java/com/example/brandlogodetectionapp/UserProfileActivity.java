@@ -36,7 +36,7 @@ public class UserProfileActivity extends AppCompatActivity {
     private ImageView imageView;
     private FirebaseAuth authProfile;
 
-    private Button goToMap,goToGSAP,goToVideo,goToProfile,goToReview,goToUpload;
+    private Button goToDropDown,goToMap,goToGSAP,goToVideo,goToProfile,goToReview,goToUpload;
 
 
     @Override
@@ -47,6 +47,7 @@ public class UserProfileActivity extends AppCompatActivity {
 
 
         getSupportActionBar().setTitle("Home");
+        goToDropDown=findViewById(R.id.DropDown);
         goToMap = findViewById(R.id.mapId);
         goToGSAP=findViewById(R.id.goToGsapId);
         goToVideo=findViewById(R.id.goToVideoId);
@@ -54,7 +55,15 @@ public class UserProfileActivity extends AppCompatActivity {
         goToUpload = findViewById(R.id.goToUpload);
 
         goToUpload = findViewById(R.id.goToUpload);
-        goToReview = findViewById(R.id.goToReview);
+         goToReview = findViewById(R.id.goToReview);
+
+goToDropDown.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Intent i = new Intent(UserProfileActivity.this,DropDown.class);
+        startActivity(i);
+    }
+});
 
         goToReview.setOnClickListener(new View.OnClickListener() {
             @Override

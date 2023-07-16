@@ -9,17 +9,25 @@ import android.view.View;
 
 public class HomeActivity extends AppCompatActivity {
 
-    CardView showReview, goUserProfileActivity, goRating;
+    CardView showReview, goUserProfileActivity, goRating,DetectLogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        DetectLogo=findViewById(R.id.LogoDetect);
         showReview = findViewById(R.id.idReview);
         goUserProfileActivity = findViewById(R.id.goUserProfileId);
         goRating = findViewById(R.id.ratingId);
 
+        DetectLogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iii=new Intent(HomeActivity.this,DetectLogo.class);
+                startActivity(iii);
+            }
+        });
         goRating.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

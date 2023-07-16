@@ -8,6 +8,7 @@ html,
 body {
   background: #fff;
 }
+
 .site-logo {
   position: fixed;
   left: 50%;
@@ -17,6 +18,7 @@ body {
   text-transform: uppercase;
   line-height: 100px;
 }
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -27,6 +29,7 @@ body {
   font-family: "Space Grotesk";
   line-height: 100px;
 }
+
 .site-menu {
   display: flex;
   font-size: 1em;
@@ -35,6 +38,7 @@ body {
 .menu-item {
   margin-left: 60px;
 }
+
 @media (max-width: 900px) {
   .navbar {
     display: none;
@@ -49,11 +53,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .header > span {
   font-family: "Maelstrom Sans";
   font-size: 40vw;
   position: relative;
 }
+
 .footer {
   position: fixed;
   bottom: 5em;
@@ -61,6 +67,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .footer span {
   position: relative;
   top: 30px;
@@ -70,6 +77,7 @@ body {
   font-size: 1.4em;
   transition: 1s;
 }
+
 .footer-wrapper:after {
   content: "";
   position: absolute;
